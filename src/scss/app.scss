@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "variables.scss";
+@import "sidebar.scss";
+@import "chat.scss";
+@import "contactinfo.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+}
+ul {
+  list-style-type: none;
+}
+i{
+  display: inline-block;
+  cursor: pointer;
+}
+img,svg{
+  height: 100%;
+  width: 100%;
+}
+button {
+  background-color: #f00;
+}
+
+.wrapper {
+  padding: 0px 40px 0 40px;
+  position: relative;
+  height: 100vh;
+  &:before {
+    content: "";
+    height: 15%;
+    width: 100%;
+    background-color: #00a884;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  &:after {
+    content: "";
+    height: 85%;
+    width: 100%;
+    background-color: #dcdddd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $header-bg;
+    height: 95vh;
+    display: flex;
+    .sidebar {
+      flex: 1;
+    }
+    .chat {
+      flex:2;
+      height: 100vh;
+    }
+    .contactinfo-blk{
+      flex: 1;
+    }
+  }
+}

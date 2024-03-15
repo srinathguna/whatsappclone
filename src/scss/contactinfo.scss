@@ -1,0 +1,157 @@
+@import "./variables.scss";
+
+.contactinfo-blk {
+  .contactinfo-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    position: relative;
+    i.icon {
+      height: 40px;
+      width: 40px;
+      display: inline-block;
+      padding: 8px;
+      cursor: pointer;
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    span {
+      font-size: 16px;
+      margin-left: 15px;
+    }
+  }
+  .contactinfo-container {
+    height: calc(100% - 60px);
+    overflow: auto;
+    .profiledetails {
+      text-align: center;
+      background-color: $white;
+      padding: 25px 0 20px;
+      .profileimg {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      span {
+        display: block;
+      }
+      .name {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 15px;
+      }
+      .phno {
+        font-size: 16px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.contactinfo-blk {
+  .aboutus {
+    background-color: $white;
+    margin: 10px 0;
+    padding: 10px 30px;
+    span {
+      display: block;
+    }
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    .desc {
+      font-size: 16px;
+    }
+  }
+}
+
+.contactinfo-blk {
+  .medialinks {
+    background-color: $white;
+    padding: 10px 30px;
+    .media-title {
+      display: flex;
+      justify-content: space-between;
+      span{
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.contactinfo-blk {
+  .medialinks {
+    .media-title {
+      display: flex;
+      align-items: center;
+      i.icon {
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        padding: 8px;
+        cursor: pointer;
+      }
+    }
+    .mediathumb-box {
+      margin-top: 10px;
+      display: flex;
+      .mediathumb-card {
+        height: 110px;
+        max-width: 120px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.contactinfo-blk {
+  .profilesetting {
+    background-color: $white;
+    margin-top: 10px;
+    .settingsingle-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 25px;
+      i.icon {
+        height: 24px;
+        width: 24px;
+        vertical-align: middle;
+      }
+      span {
+        vertical-align: middle;
+        i.icon {
+          height: 16px;
+          width: 16px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .setting-options{
+      padding: 20px 25px;
+      i.icon{
+        height: 20px;
+        width: 20px;
+        color: $error;
+        margin-right: 20px;
+        vertical-align: middle;
+      }
+      span{
+        font-size: 15px;
+        color: $error;
+        font-weight: 500;
+      }
+    }
+  }
+}
