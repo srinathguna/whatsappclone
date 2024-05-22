@@ -19,7 +19,7 @@ const contactlist = [
   },
   {
     id: 3,
-    name: "sanjeev",
+    name: "guna",
     imagesrc:
       "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
     recentmessage: "hello",
@@ -27,7 +27,7 @@ const contactlist = [
   },
   {
     id: 4,
-    name: "prathap",
+    name: "valar",
     imagesrc:
       "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
     recentmessage: "hello",
@@ -35,7 +35,7 @@ const contactlist = [
   },
   {
     id: 5,
-    name: "pappu",
+    name: "anu",
     imagesrc:
       "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
     recentmessage: "hello",
@@ -43,30 +43,6 @@ const contactlist = [
   },
   {
     id: 6,
-    name: "guna",
-    imagesrc:
-      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-    recentmessage: "hello",
-    messagetime: "11.23",
-  },
-  {
-    id: 7,
-    name: "sanjeev",
-    imagesrc:
-      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-    recentmessage: "hello",
-    messagetime: "11.23",
-  },
-  {
-    id: 8,
-    name: "prathap",
-    imagesrc:
-      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-    recentmessage: "hello",
-    messagetime: "11.23",
-  },
-  {
-    id: 9,
     name: "pappu",
     imagesrc:
       "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
@@ -74,8 +50,32 @@ const contactlist = [
     messagetime: "11.23",
   },
   {
+    id: 7,
+    name: "gugan",
+    imagesrc:
+      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    recentmessage: "hello",
+    messagetime: "11.23",
+  },
+  {
+    id: 8,
+    name: "kovi",
+    imagesrc:
+      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    recentmessage: "hello",
+    messagetime: "11.23",
+  },
+  {
+    id: 9,
+    name: "praveen",
+    imagesrc:
+      "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+    recentmessage: "hello",
+    messagetime: "11.23",
+  },
+  {
     id: 10,
-    name: "guna",
+    name: "uday",
     imagesrc:
       "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
     recentmessage: "hello",
